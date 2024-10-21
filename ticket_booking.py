@@ -82,7 +82,7 @@ while True:
         show_id = input("Enter Show Id: ")
         hall1.view_available_seats(show_id)
         
-    elif option == '3':
+    elif option == 3:
         show_id = input("Enter Show Id: ")
         num_of_seats = int(input("Enter number of seats to book: "))
         seats_to_book = []
@@ -94,13 +94,8 @@ while True:
         
         hall1.book_seats(show_id, seats_to_book)
         
-    elif option == '4':
+    elif option == 4:
         print("Exit")
         
     else:
         print("Invalid option")
-
-
-
-
-
